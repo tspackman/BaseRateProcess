@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57D93D1517C9098400ED2FDD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D93D1417C9098400ED2FDD /* Cocoa.framework */; };
+		57D93D1F17C9098400ED2FDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57D93D1D17C9098400ED2FDD /* InfoPlist.strings */; };
+		57D93D2117C9098400ED2FDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D93D2017C9098400ED2FDD /* main.m */; };
+		57D93D2517C9098400ED2FDD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 57D93D2317C9098400ED2FDD /* Credits.rtf */; };
+		57D93D2817C9098400ED2FDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D93D2717C9098400ED2FDD /* AppDelegate.m */; };
+		57D93D2B17C9098400ED2FDD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57D93D2917C9098400ED2FDD /* MainMenu.xib */; };
+		57D93D3317C9098400ED2FDD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D93D3217C9098400ED2FDD /* SenTestingKit.framework */; };
+		57D93D3417C9098400ED2FDD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D93D1417C9098400ED2FDD /* Cocoa.framework */; };
+		57D93D3C17C9098400ED2FDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57D93D3A17C9098400ED2FDD /* InfoPlist.strings */; };
+		57D93D3F17C9098400ED2FDD /* Base_RateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D93D3E17C9098400ED2FDD /* Base_RateTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57D93D3517C9098400ED2FDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57D93D0917C9098400ED2FDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57D93D1017C9098400ED2FDD;
+			remoteInfo = "Base Rate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57D93D1117C9098400ED2FDD /* Base Rate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Base Rate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D93D1417C9098400ED2FDD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		57D93D1717C9098400ED2FDD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		57D93D1817C9098400ED2FDD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		57D93D1917C9098400ED2FDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		57D93D1C17C9098400ED2FDD /* Base Rate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Base Rate-Info.plist"; sourceTree = "<group>"; };
+		57D93D1E17C9098400ED2FDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57D93D2017C9098400ED2FDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57D93D2217C9098400ED2FDD /* Base Rate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Base Rate-Prefix.pch"; sourceTree = "<group>"; };
+		57D93D2417C9098400ED2FDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		57D93D2617C9098400ED2FDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57D93D2717C9098400ED2FDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57D93D2A17C9098400ED2FDD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		57D93D3117C9098400ED2FDD /* Base RateTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Base RateTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D93D3217C9098400ED2FDD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		57D93D3917C9098400ED2FDD /* Base RateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Base RateTests-Info.plist"; sourceTree = "<group>"; };
+		57D93D3B17C9098400ED2FDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57D93D3D17C9098400ED2FDD /* Base_RateTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Base_RateTests.h; sourceTree = "<group>"; };
+		57D93D3E17C9098400ED2FDD /* Base_RateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Base_RateTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57D93D0E17C9098400ED2FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D93D1517C9098400ED2FDD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D93D2D17C9098400ED2FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D93D3317C9098400ED2FDD /* SenTestingKit.framework in Frameworks */,
+				57D93D3417C9098400ED2FDD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57D93D0817C9098400ED2FDD = {
+			isa = PBXGroup;
+			children = (
+				57D93D1A17C9098400ED2FDD /* Base Rate */,
+				57D93D3717C9098400ED2FDD /* Base RateTests */,
+				57D93D1317C9098400ED2FDD /* Frameworks */,
+				57D93D1217C9098400ED2FDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57D93D1217C9098400ED2FDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57D93D1117C9098400ED2FDD /* Base Rate.app */,
+				57D93D3117C9098400ED2FDD /* Base RateTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57D93D1317C9098400ED2FDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57D93D1417C9098400ED2FDD /* Cocoa.framework */,
+				57D93D3217C9098400ED2FDD /* SenTestingKit.framework */,
+				57D93D1617C9098400ED2FDD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57D93D1617C9098400ED2FDD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57D93D1717C9098400ED2FDD /* AppKit.framework */,
+				57D93D1817C9098400ED2FDD /* CoreData.framework */,
+				57D93D1917C9098400ED2FDD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		57D93D1A17C9098400ED2FDD /* Base Rate */ = {
+			isa = PBXGroup;
+			children = (
+				57D93D2617C9098400ED2FDD /* AppDelegate.h */,
+				57D93D2717C9098400ED2FDD /* AppDelegate.m */,
+				57D93D2917C9098400ED2FDD /* MainMenu.xib */,
+				57D93D1B17C9098400ED2FDD /* Supporting Files */,
+			);
+			path = "Base Rate";
+			sourceTree = "<group>";
+		};
+		57D93D1B17C9098400ED2FDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57D93D1C17C9098400ED2FDD /* Base Rate-Info.plist */,
+				57D93D1D17C9098400ED2FDD /* InfoPlist.strings */,
+				57D93D2017C9098400ED2FDD /* main.m */,
+				57D93D2217C9098400ED2FDD /* Base Rate-Prefix.pch */,
+				57D93D2317C9098400ED2FDD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57D93D3717C9098400ED2FDD /* Base RateTests */ = {
+			isa = PBXGroup;
+			children = (
+				57D93D3D17C9098400ED2FDD /* Base_RateTests.h */,
+				57D93D3E17C9098400ED2FDD /* Base_RateTests.m */,
+				57D93D3817C9098400ED2FDD /* Supporting Files */,
+			);
+			path = "Base RateTests";
+			sourceTree = "<group>";
+		};
+		57D93D3817C9098400ED2FDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57D93D3917C9098400ED2FDD /* Base RateTests-Info.plist */,
+				57D93D3A17C9098400ED2FDD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57D93D1017C9098400ED2FDD /* Base Rate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D93D4217C9098400ED2FDD /* Build configuration list for PBXNativeTarget "Base Rate" */;
+			buildPhases = (
+				57D93D0D17C9098400ED2FDD /* Sources */,
+				57D93D0E17C9098400ED2FDD /* Frameworks */,
+				57D93D0F17C9098400ED2FDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Base Rate";
+			productName = "Base Rate";
+			productReference = 57D93D1117C9098400ED2FDD /* Base Rate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57D93D3017C9098400ED2FDD /* Base RateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D93D4517C9098400ED2FDD /* Build configuration list for PBXNativeTarget "Base RateTests" */;
+			buildPhases = (
+				57D93D2C17C9098400ED2FDD /* Sources */,
+				57D93D2D17C9098400ED2FDD /* Frameworks */,
+				57D93D2E17C9098400ED2FDD /* Resources */,
+				57D93D2F17C9098400ED2FDD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57D93D3617C9098400ED2FDD /* PBXTargetDependency */,
+			);
+			name = "Base RateTests";
+			productName = "Base RateTests";
+			productReference = 57D93D3117C9098400ED2FDD /* Base RateTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57D93D0917C9098400ED2FDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Tracy Spackman";
+			};
+			buildConfigurationList = 57D93D0C17C9098400ED2FDD /* Build configuration list for PBXProject "Base Rate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 57D93D0817C9098400ED2FDD;
+			productRefGroup = 57D93D1217C9098400ED2FDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57D93D1017C9098400ED2FDD /* Base Rate */,
+				57D93D3017C9098400ED2FDD /* Base RateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57D93D0F17C9098400ED2FDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D93D1F17C9098400ED2FDD /* InfoPlist.strings in Resources */,
+				57D93D2517C9098400ED2FDD /* Credits.rtf in Resources */,
+				57D93D2B17C9098400ED2FDD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D93D2E17C9098400ED2FDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D93D3C17C9098400ED2FDD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57D93D2F17C9098400ED2FDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57D93D0D17C9098400ED2FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D93D2117C9098400ED2FDD /* main.m in Sources */,
+				57D93D2817C9098400ED2FDD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D93D2C17C9098400ED2FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D93D3F17C9098400ED2FDD /* Base_RateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57D93D3617C9098400ED2FDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57D93D1017C9098400ED2FDD /* Base Rate */;
+			targetProxy = 57D93D3517C9098400ED2FDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57D93D1D17C9098400ED2FDD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57D93D1E17C9098400ED2FDD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57D93D2317C9098400ED2FDD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57D93D2417C9098400ED2FDD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		57D93D2917C9098400ED2FDD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57D93D2A17C9098400ED2FDD /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		57D93D3A17C9098400ED2FDD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57D93D3B17C9098400ED2FDD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57D93D4017C9098400ED2FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		57D93D4117C9098400ED2FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		57D93D4317C9098400ED2FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Base Rate/Base Rate-Prefix.pch";
+				INFOPLIST_FILE = "Base Rate/Base Rate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		57D93D4417C9098400ED2FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Base Rate/Base Rate-Prefix.pch";
+				INFOPLIST_FILE = "Base Rate/Base Rate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		57D93D4617C9098400ED2FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Base Rate.app/Contents/MacOS/Base Rate";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Base Rate/Base Rate-Prefix.pch";
+				INFOPLIST_FILE = "Base RateTests/Base RateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		57D93D4717C9098400ED2FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Base Rate.app/Contents/MacOS/Base Rate";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Base Rate/Base Rate-Prefix.pch";
+				INFOPLIST_FILE = "Base RateTests/Base RateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57D93D0C17C9098400ED2FDD /* Build configuration list for PBXProject "Base Rate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D93D4017C9098400ED2FDD /* Debug */,
+				57D93D4117C9098400ED2FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57D93D4217C9098400ED2FDD /* Build configuration list for PBXNativeTarget "Base Rate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D93D4317C9098400ED2FDD /* Debug */,
+				57D93D4417C9098400ED2FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57D93D4517C9098400ED2FDD /* Build configuration list for PBXNativeTarget "Base RateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D93D4617C9098400ED2FDD /* Debug */,
+				57D93D4717C9098400ED2FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57D93D0917C9098400ED2FDD /* Project object */;
+}

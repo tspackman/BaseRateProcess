@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Base Rate' target in the 'Base Rate' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
