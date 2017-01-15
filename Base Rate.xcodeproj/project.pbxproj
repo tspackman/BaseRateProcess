@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5710DA0D197019AA007D007E /* BR.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5710DA0C197019AA007D007E /* BR.icns */; };
+		5750AB8B1961B78200619E5B /* PreferenceMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5750AB8A1961B78200619E5B /* PreferenceMenu.xib */; };
+		5750AB8E1961BA9800619E5B /* PrefController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5750AB8D1961BA9800619E5B /* PrefController.m */; };
+		57D60FED195F18D8008F0728 /* CSsip.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D60FEC195F18D8008F0728 /* CSsip.m */; };
+		57D60FF0195F4869008F0728 /* Umb.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D60FEF195F4869008F0728 /* Umb.m */; };
 		57D93D1517C9098400ED2FDD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D93D1417C9098400ED2FDD /* Cocoa.framework */; };
 		57D93D1F17C9098400ED2FDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57D93D1D17C9098400ED2FDD /* InfoPlist.strings */; };
 		57D93D2117C9098400ED2FDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D93D2017C9098400ED2FDD /* main.m */; };
 		57D93D2517C9098400ED2FDD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 57D93D2317C9098400ED2FDD /* Credits.rtf */; };
 		57D93D2817C9098400ED2FDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D93D2717C9098400ED2FDD /* AppDelegate.m */; };
 		57D93D2B17C9098400ED2FDD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57D93D2917C9098400ED2FDD /* MainMenu.xib */; };
-		57D93D3317C9098400ED2FDD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D93D3217C9098400ED2FDD /* SenTestingKit.framework */; };
 		57D93D3417C9098400ED2FDD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D93D1417C9098400ED2FDD /* Cocoa.framework */; };
 		57D93D3C17C9098400ED2FDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57D93D3A17C9098400ED2FDD /* InfoPlist.strings */; };
 		57D93D3F17C9098400ED2FDD /* Base_RateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D93D3E17C9098400ED2FDD /* Base_RateTests.m */; };
+		F54855C71CB8227E00BACFB3 /* Ufp.m in Sources */ = {isa = PBXBuildFile; fileRef = F54855C61CB8227E00BACFB3 /* Ufp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +35,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5710DA0A1970196C007D007E /* BR.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = BR.icns; sourceTree = "<group>"; };
+		5710DA0C197019AA007D007E /* BR.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = BR.icns; sourceTree = "<group>"; };
+		5750AB8A1961B78200619E5B /* PreferenceMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferenceMenu.xib; sourceTree = "<group>"; };
+		5750AB8C1961BA9800619E5B /* PrefController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefController.h; sourceTree = "<group>"; };
+		5750AB8D1961BA9800619E5B /* PrefController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefController.m; sourceTree = "<group>"; };
+		57D60FEB195F18D8008F0728 /* CSsip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSsip.h; sourceTree = "<group>"; };
+		57D60FEC195F18D8008F0728 /* CSsip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSsip.m; sourceTree = "<group>"; };
+		57D60FEE195F4869008F0728 /* Umb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Umb.h; sourceTree = "<group>"; };
+		57D60FEF195F4869008F0728 /* Umb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Umb.m; sourceTree = "<group>"; };
 		57D93D1117C9098400ED2FDD /* Base Rate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Base Rate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D93D1417C9098400ED2FDD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		57D93D1717C9098400ED2FDD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -43,12 +57,13 @@
 		57D93D2617C9098400ED2FDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		57D93D2717C9098400ED2FDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		57D93D2A17C9098400ED2FDD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		57D93D3117C9098400ED2FDD /* Base RateTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Base RateTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		57D93D3217C9098400ED2FDD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		57D93D3117C9098400ED2FDD /* Base RateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Base RateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D93D3917C9098400ED2FDD /* Base RateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Base RateTests-Info.plist"; sourceTree = "<group>"; };
 		57D93D3B17C9098400ED2FDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		57D93D3D17C9098400ED2FDD /* Base_RateTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Base_RateTests.h; sourceTree = "<group>"; };
 		57D93D3E17C9098400ED2FDD /* Base_RateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Base_RateTests.m; sourceTree = "<group>"; };
+		F54855C51CB8227E00BACFB3 /* Ufp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ufp.h; sourceTree = "<group>"; };
+		F54855C61CB8227E00BACFB3 /* Ufp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ufp.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +79,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57D93D3317C9098400ED2FDD /* SenTestingKit.framework in Frameworks */,
 				57D93D3417C9098400ED2FDD /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +89,7 @@
 		57D93D0817C9098400ED2FDD = {
 			isa = PBXGroup;
 			children = (
+				5710DA0C197019AA007D007E /* BR.icns */,
 				57D93D1A17C9098400ED2FDD /* Base Rate */,
 				57D93D3717C9098400ED2FDD /* Base RateTests */,
 				57D93D1317C9098400ED2FDD /* Frameworks */,
@@ -86,7 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				57D93D1117C9098400ED2FDD /* Base Rate.app */,
-				57D93D3117C9098400ED2FDD /* Base RateTests.octest */,
+				57D93D3117C9098400ED2FDD /* Base RateTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,7 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				57D93D1417C9098400ED2FDD /* Cocoa.framework */,
-				57D93D3217C9098400ED2FDD /* SenTestingKit.framework */,
 				57D93D1617C9098400ED2FDD /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -116,7 +130,16 @@
 			children = (
 				57D93D2617C9098400ED2FDD /* AppDelegate.h */,
 				57D93D2717C9098400ED2FDD /* AppDelegate.m */,
+				57D60FEE195F4869008F0728 /* Umb.h */,
+				57D60FEF195F4869008F0728 /* Umb.m */,
+				F54855C51CB8227E00BACFB3 /* Ufp.h */,
+				F54855C61CB8227E00BACFB3 /* Ufp.m */,
+				57D60FEB195F18D8008F0728 /* CSsip.h */,
+				57D60FEC195F18D8008F0728 /* CSsip.m */,
+				5750AB8C1961BA9800619E5B /* PrefController.h */,
+				5750AB8D1961BA9800619E5B /* PrefController.m */,
 				57D93D2917C9098400ED2FDD /* MainMenu.xib */,
+				5750AB8A1961B78200619E5B /* PreferenceMenu.xib */,
 				57D93D1B17C9098400ED2FDD /* Supporting Files */,
 			);
 			path = "Base Rate";
@@ -125,6 +148,7 @@
 		57D93D1B17C9098400ED2FDD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5710DA0A1970196C007D007E /* BR.icns */,
 				57D93D1C17C9098400ED2FDD /* Base Rate-Info.plist */,
 				57D93D1D17C9098400ED2FDD /* InfoPlist.strings */,
 				57D93D2017C9098400ED2FDD /* main.m */,
@@ -189,8 +213,8 @@
 			);
 			name = "Base RateTests";
 			productName = "Base RateTests";
-			productReference = 57D93D3117C9098400ED2FDD /* Base RateTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = 57D93D3117C9098400ED2FDD /* Base RateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -198,7 +222,8 @@
 		57D93D0917C9098400ED2FDD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastTestingUpgradeCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Tracy Spackman";
 			};
 			buildConfigurationList = 57D93D0C17C9098400ED2FDD /* Build configuration list for PBXProject "Base Rate" */;
@@ -224,9 +249,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5710DA0D197019AA007D007E /* BR.icns in Resources */,
 				57D93D1F17C9098400ED2FDD /* InfoPlist.strings in Resources */,
 				57D93D2517C9098400ED2FDD /* Credits.rtf in Resources */,
 				57D93D2B17C9098400ED2FDD /* MainMenu.xib in Resources */,
+				5750AB8B1961B78200619E5B /* PreferenceMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D60FF0195F4869008F0728 /* Umb.m in Sources */,
+				57D60FED195F18D8008F0728 /* CSsip.m in Sources */,
 				57D93D2117C9098400ED2FDD /* main.m in Sources */,
+				F54855C71CB8227E00BACFB3 /* Ufp.m in Sources */,
 				57D93D2817C9098400ED2FDD /* AppDelegate.m in Sources */,
+				5750AB8E1961BA9800619E5B /* PrefController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +355,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -334,6 +364,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -357,7 +388,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -386,6 +416,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Base Rate/Base Rate-Prefix.pch";
 				INFOPLIST_FILE = "Base Rate/Base Rate-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tcs.BaseRate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -398,6 +429,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Base Rate/Base Rate-Prefix.pch";
 				INFOPLIST_FILE = "Base Rate/Base Rate-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tcs.BaseRate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -408,13 +440,16 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Base Rate.app/Contents/MacOS/Base Rate";
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Base Rate/Base Rate-Prefix.pch";
 				INFOPLIST_FILE = "Base RateTests/Base RateTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "tcs.com.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -423,13 +458,16 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Base Rate.app/Contents/MacOS/Base Rate";
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Base Rate/Base Rate-Prefix.pch";
 				INFOPLIST_FILE = "Base RateTests/Base RateTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "tcs.com.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -452,6 +490,7 @@
 				57D93D4417C9098400ED2FDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57D93D4517C9098400ED2FDD /* Build configuration list for PBXNativeTarget "Base RateTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +499,7 @@
 				57D93D4717C9098400ED2FDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
