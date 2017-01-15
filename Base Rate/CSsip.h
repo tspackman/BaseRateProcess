@@ -4,7 +4,7 @@
 //
 //  Created by Tracy Spackman on 6/28/14.
 //  Copyright (c) 2014 Tracy Spackman. All rights reserved.
-//
+//  Information on individual sip endpoints.
 
 #import <Foundation/Foundation.h>
 #import "AppDelegate.h"

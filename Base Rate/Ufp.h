@@ -4,7 +4,7 @@
 //
 //  Created by Tracy Spackman on 4/8/16.
 //  Copyright © 2016 Tracy Spackman. All rights reserved.
-//
+//  This is where the feature_profile information was moved to in OSV 7
 
 #import <Foundation/Foundation.h>
 
