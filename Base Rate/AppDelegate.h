@@ -5,6 +5,7 @@
 //  Created by Tracy Spackman on 8/24/13.
 //  Copyright (c) 2013 Tracy Spackman. All rights reserved.
 //
+//  Setup of GitHub repository
 
 #import <Cocoa/Cocoa.h>
 #import <Foundation/Foundation.h>
